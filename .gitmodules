@@ -1,0 +1,6 @@
+[submodule "whisper-cpp/whisper.cpp"]
+	path = external/whisper.cpp
+	url = https://github.com/ggml-org/whisper.cpp.git
+[submodule "external/pywhispercpp"]
+	path = external/pywhispercpp
+	url = https://github.com/absadiki/pywhispercpp.git

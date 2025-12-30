@@ -1,0 +1,39 @@
+;.editorconfig
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+indent_style = space
+
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{js,py}]
+charset = utf-8
+
+[**.js]
+; Javascript interpreter to be invoked by default 'node'
+bin=node
+indent_style = space
+indent_size = 4
+
+[**.css]
+indent_style = space
+indent_size = 4
+
+[**.html]
+vim:max_char=78:brace_style=expand
+indent_style = space
+indent_size = 4
+
+[**.{md,rst,markdown}]
+indent_style = space
+indent_size = 2
+
+# 4 space indentation
+[*.py]
+vim:max_char=78:brace_style=expand
+indent_style = space
+indent_size = 4
